@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/venuspizza/static/css/main.f42ddff7.chunk.css",
+    "main.js": "/venuspizza/static/js/main.7e061b79.chunk.js",
+    "main.js.map": "/venuspizza/static/js/main.7e061b79.chunk.js.map",
+    "runtime-main.js": "/venuspizza/static/js/runtime-main.dcbf0800.js",
+    "runtime-main.js.map": "/venuspizza/static/js/runtime-main.dcbf0800.js.map",
+    "static/js/2.24190045.chunk.js": "/venuspizza/static/js/2.24190045.chunk.js",
+    "static/js/2.24190045.chunk.js.map": "/venuspizza/static/js/2.24190045.chunk.js.map",
+    "index.html": "/venuspizza/index.html",
+    "static/css/main.f42ddff7.chunk.css.map": "/venuspizza/static/css/main.f42ddff7.chunk.css.map",
+    "static/js/2.24190045.chunk.js.LICENSE.txt": "/venuspizza/static/js/2.24190045.chunk.js.LICENSE.txt",
+    "static/media/BaseCheese.2c5ba8bb.png": "/venuspizza/static/media/BaseCheese.2c5ba8bb.png",
+    "static/media/Basil.5387fca4.png": "/venuspizza/static/media/Basil.5387fca4.png",
+    "static/media/Mushroom.8bb1079b.png": "/venuspizza/static/media/Mushroom.8bb1079b.png",
+    "static/media/Olive.0da28a3b.png": "/venuspizza/static/media/Olive.0da28a3b.png",
+    "static/media/Pineapple.33c89c63.png": "/venuspizza/static/media/Pineapple.33c89c63.png",
+    "static/media/PizzaBase.b01ddacc.png": "/venuspizza/static/media/PizzaBase.b01ddacc.png",
+    "static/media/Tomato.ed6f5243.png": "/venuspizza/static/media/Tomato.ed6f5243.png",
+    "static/media/astronauta.22742650.png": "/venuspizza/static/media/astronauta.22742650.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcbf0800.js",
+    "static/js/2.24190045.chunk.js",
+    "static/css/main.f42ddff7.chunk.css",
+    "static/js/main.7e061b79.chunk.js"
+  ]
+}

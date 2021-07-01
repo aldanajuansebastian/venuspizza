@@ -1,0 +1,161 @@
+.customize {
+  background-color: rgb(6, 2, 59);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.checkbox {
+  margin: 100px 10px;
+}
+
+.image {
+    margin-top:20px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+
+.ingredientImage {
+    position: relative;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+.ingredient {
+    position: absolute;
+    margin-top: -100px;
+    width: 100%;
+}
+
+.cheese {
+    position: absolute;
+    width: 100%;
+}
+
+
+/* Customize the label (the container) */
+.container {
+  color:wheat;
+    font-family: Arial;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: rgb(233, 57, 57);
+  }
+  .container input:checked ~ .checkmark {
+    background-color: rgba(255, 174, 0, 0.938);
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  @media (max-width: 1000px) {
+    .customize {
+      background-color: rgb(6, 2, 59);
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .checkbox {
+      margin: 10px;
+      margin-bottom: 100px;
+    }
+    
+    .image {
+      margin-left: 150px;
+      width: 200;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+       
+    .ingredientImage {
+        position: relative;
+        max-width: 300px;
+        min-width: 200px;
+    }
+
+    .container {
+      font-size: 18px;
+    }
+    
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+    }
+  }
+
+
+
+  @media (max-width: 500px) {
+    .image {
+      margin-left: 150px;
+    }
+
+    .container {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+}

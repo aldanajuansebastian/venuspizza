@@ -1,0 +1,40 @@
+.header2 {
+    width: 100%;
+    display: flex;
+    font-family: Arial;
+    background-color: rgb(4, 2, 43);
+    color: wheat;
+    text-align: center;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.venuspizza2 {
+    margin:30px 50px;
+    text-align: left;
+    align-items: center;
+}
+
+.astronauta2 {
+    margin: 20px 100px;
+    width: 100px;
+}
+
+@media (max-width: 500px) {
+    .header2 {
+        width: 100%;
+        display: flex;
+        font-family: Arial;
+        background-color: rgb(4, 2, 43);
+        color: wheat;
+        text-align: center;
+        flex-direction: row;
+    }
+    .astronauta2 {
+        width: 100px;
+    }
+
+    .venuspizza2 {
+        margin-left: 150px;
+    }
+}

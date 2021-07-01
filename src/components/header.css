@@ -1,0 +1,112 @@
+.header {
+    width: 100%;
+    display: flex;
+    height: 70%;
+    font-family: Arial;
+    background-color: rgb(4, 2, 43);
+    color: wheat;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.venuspizza {
+    margin:100px;
+    text-align: left;
+    align-items: center;
+}
+
+
+.btnyellow {
+    margin: 5px 10px;
+    background-color: rgba(255, 174, 0, 0.938);
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+}
+
+.btnred {
+    background-color: rgba(253, 16, 16, 0.938);
+    margin: 5px 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+}
+
+.astronauta {
+    margin: 50px;
+    width: 300px;
+}
+
+h2 {
+    color:rgb(255, 209, 140);
+}
+
+h3 {
+    color:rgb(21, 1, 58);
+}
+h4 {
+    color:rgb(0, 0, 0);
+}
+h5 {
+    color:wheat;
+}
+
+@media (max-width: 1000px) {
+
+    .header {
+        width: 100%;
+        display: flex;
+        font-family: Arial;
+        background-color: rgb(4, 2, 43);
+        color: wheat;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .venuspizza {
+        text-align: center;
+        align-items: center;
+    }
+    
+    
+    .btnyellow {
+        background-color: rgba(255, 174, 0, 0.938);
+        width: 200px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        font-size: 18px;
+        color:white;
+        cursor: pointer;
+    }
+    
+    .btnred {
+        background-color: rgba(253, 16, 16, 0.938);
+        margin: 5px 10px;
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        font-size: 18px;
+        color:white;
+        cursor: pointer;
+    }
+    
+    .astronauta {
+        flex:1;
+        margin-top: -90px;
+        margin-left: 20px;
+        width: 200px;
+    }
+}

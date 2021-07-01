@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {HashRouter  as Router, Switch, Route } from "react-router-dom";
 import Header from './components/Header.js';
 import Header2 from './components/Header2.js';
 import Customize from './components/Customize.js';

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/venuspizza/static/css/main.404f3f97.chunk.css",
-    "main.js": "/venuspizza/static/js/main.6664bb5b.chunk.js",
-    "main.js.map": "/venuspizza/static/js/main.6664bb5b.chunk.js.map",
+    "main.js": "/venuspizza/static/js/main.6c19701b.chunk.js",
+    "main.js.map": "/venuspizza/static/js/main.6c19701b.chunk.js.map",
     "runtime-main.js": "/venuspizza/static/js/runtime-main.dcbf0800.js",
     "runtime-main.js.map": "/venuspizza/static/js/runtime-main.dcbf0800.js.map",
     "static/js/2.73e4d52c.chunk.js": "/venuspizza/static/js/2.73e4d52c.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.dcbf0800.js",
     "static/js/2.73e4d52c.chunk.js",
     "static/css/main.404f3f97.chunk.css",
-    "static/js/main.6664bb5b.chunk.js"
+    "static/js/main.6c19701b.chunk.js"
   ]
 }

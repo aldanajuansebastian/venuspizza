@@ -20,7 +20,7 @@ const Checkout = ({ingredients}) => {
                         <h4>Recibirás tu orden entre 30 y 40 minutos</h4>
                     </div>
                 </div>
-            )}
+            )}git 
                 <h1>Tu orden</h1>
                 <h3>Una pizza con los siguientes ingredientes:</h3>
                 

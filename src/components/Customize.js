@@ -23,7 +23,7 @@ const Customize = ({ingredients, setIngredients}) => {
     }
 
     return (
-        <div className="customize">
+        <section className="customize" id="customize">
             <div className="image">
                 <h2>Tu pizza:</h2>
                 <div className="ingredientImage">
@@ -132,7 +132,7 @@ const Customize = ({ingredients, setIngredients}) => {
                 </div>
 
             
-        </div>
+        </section>
     );
 }
 

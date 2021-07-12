@@ -148,7 +148,7 @@
 
     .container {
     font-size: 15px;
-    margin-left: 50px;
+    margin: 0 0 20px -20px;
   }
   .checkmark {
     position: absolute;

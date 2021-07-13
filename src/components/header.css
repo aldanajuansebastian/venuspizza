@@ -60,8 +60,9 @@
 }
 
 .venuspizza> h1 {
-    font-size: 200%;
-    color:rgba(255, 174, 0, 1);
+    font-size: 300%;
+    font-family:monospace;
+    color:rgb(255, 255, 255);
 }
 
 h2 {

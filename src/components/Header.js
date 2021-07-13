@@ -17,8 +17,8 @@ const Header = () => {
                     </motion.button>
                 </Link>
             </div>
-            <motion.div className="astronauta" animate={{scale:[1, 0.01, 1.2]}} transition={{duration: 10, delay:1}}>
-                <motion.img animate={{rotate:720}} transition={{duration:10}} src={Astronauta} alt="Astronauta" width="100%"/>
+            <motion.div className="astronauta" animate={{scale:[1, 0.7, 1.1]}} transition={{duration: 10, delay:1}}>
+                <motion.img animate={{rotate:360}} transition={{duration:12}} src={Astronauta} alt="Astronauta" width="100%"/>
             </motion.div>
         </div>
     );

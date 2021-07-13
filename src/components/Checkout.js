@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import './checkout.css';
 import { useHistory } from "react-router-dom";
 import Check from '../assets/check.png';
-import Space from '../assets/spacebg.jpg'
 import { motion } from "framer-motion";
 
 const Checkout = ({ingredients}) => {
@@ -24,7 +23,6 @@ const Checkout = ({ingredients}) => {
                 </div>
                 )}
             </div>
-            <img src={Space} alt="Fondo espacio" className="spacebg" />
             <div className="tuorden">
                 <h1>Tu orden</h1>
                 <h3>Una pizza con los siguientes ingredientes:</h3>
@@ -39,10 +37,10 @@ const Checkout = ({ingredients}) => {
                         )
                     );
                 })}
-                <motion.button whileHover={{ scale: 1.1 }} className="btnyellow" onClick={() => setSuccess(true)}>
+                <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnyellow" onClick={() => setSuccess(true)}>
                     Confirmar pedido
                 </motion.button>
-                <motion.button whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push("/")}>
+                <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push("/")}>
                     Atrás
                 </motion.button>
                 

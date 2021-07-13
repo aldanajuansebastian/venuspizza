@@ -9,7 +9,6 @@ import Tomate from '../assets/Tomato.png';
 import Base from '../assets/PizzaBase.png';
 import {motion} from 'framer-motion';
 import { useHistory } from "react-router-dom";
-import Space from '../assets/spacebg.jpg'
 
 const Customize = ({ingredients, setIngredients}) => {
 
@@ -25,8 +24,6 @@ const Customize = ({ingredients, setIngredients}) => {
 
     return (
         <section className="customize" id="customize">
-            <img src={Space} alt="Fondo espacio" className="spacebg" />
-            <div className="image">
                 <div className="ingredientImage">
                     <motion.div 
                         initial={{scale:0}}
@@ -95,7 +92,6 @@ const Customize = ({ingredients, setIngredients}) => {
                     
                     <img src={Base} alt="Base" width="100%"/>
                 </div>
-            </div>
             <div className="checkbox">
                     <label className="container">Queso
                         <input type="checkbox" onChange={(event)=> onChange(event.currentTarget.checked, "queso")}/>
@@ -127,10 +123,10 @@ const Customize = ({ingredients, setIngredients}) => {
                         <span className="checkmark"></span>
                     </label>
                     <div className="butons">
-                        <motion.button whileHover={{ scale: 1.1 }} className="btnyellow" onClick={() => history.push('/confirmarpedido')}>
+                        <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnyellow" onClick={() => history.push('/confirmarpedido')}>
                             Ordenar
                         </motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push('/')}>
+                        <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push('/')}>
                             Volver
                         </motion.button>
                     </div>

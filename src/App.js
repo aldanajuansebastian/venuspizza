@@ -3,6 +3,7 @@ import Header from './components/Header.js';
 import Customize from './components/Customize.js';
 import Checkout from './components/Checkout.js';
 import React, { useState, useEffect } from "react";
+import Bg from "./components/Bg.js";
 
 function App() {
   const [ingredients, setIngredients] = useState({
@@ -28,13 +29,16 @@ function App() {
       <Router>
             <Switch>
                 <Route path="/personalizar">
+                    <Bg />
                     <Customize ingredients={ingredients} setIngredients={setIngredients}/>
                 </Route>
                 <Route path="/confirmarpedido">
+                    <Bg />
                     <Checkout ingredients={ingredients}/>
                 </Route>
                 
                 <Route exact path="/">
+                    <Bg />
                     <Header />
                 </Route>
             </Switch>

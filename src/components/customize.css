@@ -1,6 +1,5 @@
 .customize {
   display: flex;
-  height: 40em;
   flex-direction: row;
   width: 100%;
   justify-content: center;
@@ -14,20 +13,13 @@
   text-align: left;
 }
 
-.image {
-    text-align: left;
-    width: 30%;
-    margin-top:20px;
-    margin-right: 150px;
-    margin-bottom: 50px;
-}
-
-
 .ingredientImage {
     position: relative;
-    max-width: 400px;
-    min-width: 200px;
+    width: 30%;
+    text-align: left;
+    margin: 0 7%;
 }
+
 
 .ingredient {
     position: absolute;
@@ -107,27 +99,25 @@
     }
     .butons {
       text-align: center;
-      margin-bottom: 20%;
     }
     
     .checkbox {
       width: 60%;
-      margin: 10px;
-      margin-bottom: 100px;
     }
     
-    .image {
+    .ingredientImage {
       position: relative;
-      width: 100%;
-      margin: 40% 0 5% 60%;
+      width: 50%;
+      margin: 10% 0 0 0;
     }
-       
+    
+    /*
     .ingredientImage {
         position: relative;
         max-width: 300px;
         min-width: 200px;
     }
-
+    */
     .container {
       font-size: 18px;
     }
@@ -145,9 +135,11 @@
 
 
   @media (max-width: 500px) {
-    .image {
-      margin: 40% 0 0 40%;
+
+    .ingredientImage {
+      width: 80%;
     }
+    
 
     .container {
       font-size: 15px;

@@ -11,8 +11,10 @@
 }
 
 .venuspizza {
-    margin:200px 100px;
-    text-align: left;
+    width: 30%;
+    height: 50%;
+    margin:15% 2%;
+    text-align: center;
     align-items: center;
 }
 
@@ -28,22 +30,23 @@
 }
 
 .btnyellow {
-    margin: 5px 10px;
-    background-color: rgba(255, 174, 0, 0.938);
-    width: 200px;
-    height: 40px;
+    margin: 2% 1%;
+    background-color: rgba(255, 174, 0, 0.8);
+    width: 80%;
+    height: 3rem;
     border-radius: 8px;
     border: none;
     font-size: 18px;
     color:white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btnred {
-    background-color: rgba(253, 16, 16, 0.938);
-    margin: 5px 10px;
-    width: 100px;
-    height: 40px;
+    background-color: rgba(253, 16, 16, 0.8);
+    margin: 2% 1%;
+    width: 80%;
+    height: 3rem;
     border-radius: 8px;
     border: none;
     font-size: 18px;
@@ -52,8 +55,13 @@
 }
 
 .astronauta {
+    width: 20%;
     margin: 50px;
-    width: 300px;
+}
+
+.venuspizza> h1 {
+    font-size: 200%;
+    color:rgba(255, 174, 0, 1);
 }
 
 h2 {
@@ -71,6 +79,21 @@ h5 {
 }
 
 
+@media screen and (max-width: 900px){
+    .header {
+        flex-direction: column;
+    }
+    .venuspizza {
+        width: 90%;
+        margin:20% 0 0 0;
+        align-items: center;
+    }
+    .astronauta {
+        width: 50%;
+    }
+    
+}
+{/*
 @media (max-width: 1000px) {
 
     .header {
@@ -125,3 +148,5 @@ h5 {
         align-items: center;
     }
 }
+
+*/}

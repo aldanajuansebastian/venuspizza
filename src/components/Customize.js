@@ -9,6 +9,7 @@ import Tomate from '../assets/Tomato.png';
 import Base from '../assets/PizzaBase.png';
 import {motion} from 'framer-motion';
 import { useHistory } from "react-router-dom";
+import Space from '../assets/spacebg.jpg'
 
 const Customize = ({ingredients, setIngredients}) => {
 
@@ -24,8 +25,8 @@ const Customize = ({ingredients, setIngredients}) => {
 
     return (
         <section className="customize" id="customize">
+            <img src={Space} alt="Fondo espacio" className="spacebg" />
             <div className="image">
-                <h2>Tu pizza:</h2>
                 <div className="ingredientImage">
                     <motion.div 
                         initial={{scale:0}}
@@ -125,12 +126,17 @@ const Customize = ({ingredients, setIngredients}) => {
                         <input type="checkbox" onChange={(event)=> onChange(event.currentTarget.checked, "tomate")}/>
                         <span className="checkmark"></span>
                     </label>
-
-                    <button className="btnyellow" onClick={() => history.push('/checkout')}>
-                        Ordenar
-                    </button>
+                    <div className="butons">
+                        <motion.button whileHover={{ scale: 1.1 }} className="btnyellow" onClick={() => history.push('/confirmarpedido')}>
+                            Ordenar
+                        </motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push('/')}>
+                            Volver
+                        </motion.button>
+                    </div>
+                    
                 </div>
-
+                
             
         </section>
     );

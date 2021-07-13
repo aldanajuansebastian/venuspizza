@@ -1,6 +1,5 @@
 import {HashRouter  as Router, Switch, Route } from "react-router-dom";
 import Header from './components/Header.js';
-import Header2 from './components/Header2.js';
 import Customize from './components/Customize.js';
 import Checkout from './components/Checkout.js';
 import React, { useState, useEffect } from "react";
@@ -12,8 +11,7 @@ function App() {
     champinion: false,
     cebolla: false,
     pinia: false,
-    tomate: false,
-    observaciones: ""
+    tomate: false
   })
 
   useEffect(() => {
@@ -27,8 +25,21 @@ function App() {
 
   return (
     <div>
-      
       <Router>
+            <Switch>
+                <Route path="/personalizar">
+                    <Customize ingredients={ingredients} setIngredients={setIngredients}/>
+                </Route>
+                <Route path="/confirmarpedido">
+                    <Checkout ingredients={ingredients}/>
+                </Route>
+                
+                <Route exact path="/">
+                    <Header />
+                </Route>
+            </Switch>
+        </Router>
+      {/*<Router>
         <Switch>
           <Route exact path="/">
             <Header />
@@ -40,6 +51,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      */}
     </div>
   );
 }

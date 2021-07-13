@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import './checkout.css';
 import { useHistory } from "react-router-dom";
 import Check from '../assets/check.png';
+import Space from '../assets/spacebg.jpg'
+import { motion } from "framer-motion";
 
 const Checkout = ({ingredients}) => {
 
@@ -11,7 +13,7 @@ const Checkout = ({ingredients}) => {
 
     return (
         <div className="checkout">
-            <div className="tuorden">
+            <div>
             {success && (
                 <div className="success">
                     <div className="check"><img src={Check} alt="success" width="100%"/></div>
@@ -20,7 +22,10 @@ const Checkout = ({ingredients}) => {
                         <h4>Recibirás tu orden entre 30 y 40 minutos</h4>
                     </div>
                 </div>
-            )}
+                )}
+            </div>
+            <img src={Space} alt="Fondo espacio" className="spacebg" />
+            <div className="tuorden">
                 <h1>Tu orden</h1>
                 <h3>Una pizza con los siguientes ingredientes:</h3>
                 
@@ -34,14 +39,14 @@ const Checkout = ({ingredients}) => {
                         )
                     );
                 })}
-                <button className="btnyellow" onClick={() => setSuccess(true)}>
+                <motion.button whileHover={{ scale: 1.1 }} className="btnyellow" onClick={() => setSuccess(true)}>
                     Confirmar pedido
-                </button>
-                <button className="btnred" onClick={() => history.push("/")}>
+                </motion.button>
+                <motion.button whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push("/")}>
                     Atrás
-                </button>
+                </motion.button>
+                
             </div>
-
             
         </div>
     );

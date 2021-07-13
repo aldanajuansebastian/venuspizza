@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/venuspizza/static/css/main.eaf79f6b.chunk.css",
-    "main.js": "/venuspizza/static/js/main.2048b056.chunk.js",
-    "main.js.map": "/venuspizza/static/js/main.2048b056.chunk.js.map",
+    "main.css": "/venuspizza/static/css/main.d0bf6e71.chunk.css",
+    "main.js": "/venuspizza/static/js/main.1a3c2af9.chunk.js",
+    "main.js.map": "/venuspizza/static/js/main.1a3c2af9.chunk.js.map",
     "runtime-main.js": "/venuspizza/static/js/runtime-main.dcbf0800.js",
     "runtime-main.js.map": "/venuspizza/static/js/runtime-main.dcbf0800.js.map",
     "static/js/2.b75cf359.chunk.js": "/venuspizza/static/js/2.b75cf359.chunk.js",
     "static/js/2.b75cf359.chunk.js.map": "/venuspizza/static/js/2.b75cf359.chunk.js.map",
     "index.html": "/venuspizza/index.html",
-    "static/css/main.eaf79f6b.chunk.css.map": "/venuspizza/static/css/main.eaf79f6b.chunk.css.map",
+    "static/css/main.d0bf6e71.chunk.css.map": "/venuspizza/static/css/main.d0bf6e71.chunk.css.map",
     "static/js/2.b75cf359.chunk.js.LICENSE.txt": "/venuspizza/static/js/2.b75cf359.chunk.js.LICENSE.txt",
     "static/media/BaseCheese.2c5ba8bb.png": "/venuspizza/static/media/BaseCheese.2c5ba8bb.png",
     "static/media/Basil.5387fca4.png": "/venuspizza/static/media/Basil.5387fca4.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.dcbf0800.js",
     "static/js/2.b75cf359.chunk.js",
-    "static/css/main.eaf79f6b.chunk.css",
-    "static/js/main.2048b056.chunk.js"
+    "static/css/main.d0bf6e71.chunk.css",
+    "static/js/main.1a3c2af9.chunk.js"
   ]
 }

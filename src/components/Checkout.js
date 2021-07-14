@@ -40,7 +40,7 @@ const Checkout = ({ingredients}) => {
                 <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnyellow" onClick={() => setSuccess(true)}>
                     Confirmar pedido
                 </motion.button>
-                <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push("/")}>
+                <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push("/personalizar")}>
                     Atrás
                 </motion.button>
                 

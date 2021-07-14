@@ -19,7 +19,7 @@ const Customize = ({ingredients, setIngredients}) => {
         let newIngredients = JSON.parse(JSON.stringify(ingredients));
         newIngredients[name] = event;
         setIngredients(newIngredients);
-        localStorage.setItem("ingredients", JSON.stringify(newIngredients))
+        localStorage.setItem("ingredients", JSON.stringify(newIngredients));
     }
 
     return (
@@ -126,7 +126,7 @@ const Customize = ({ingredients, setIngredients}) => {
                         <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnyellow" onClick={() => history.push('/confirmarpedido')}>
                             Ordenar
                         </motion.button>
-                        <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push('/')}>
+                        <motion.button whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }} className="btnred" onClick={() => history.push('../')}>
                             Volver
                         </motion.button>
                     </div>
